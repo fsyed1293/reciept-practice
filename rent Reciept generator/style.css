@@ -1,0 +1,117 @@
+  
+.main-container {
+    -webkit-writing-mode: horizontal-tb !important;
+    width: 800px;
+    padding: 10px;
+    align-content: center;
+    padding-left: 200px;
+    border: lightgreen, 2px;
+    padding-left: 100px;
+    align-content: space-around;
+    
+
+}
+
+.form-group
+{
+    
+width: 900px;
+align-content: center;
+padding: 10px;
+font-size: 20px;
+text-align-last;
+align-content: space-around;
+}
+
+
+
+.main-form
+{
+width: 800px;
+align-content: center;
+font: outline;
+font-size: 30px;
+
+}
+
+.form-control
+{
+    width: 800px;
+    font-size: 15px;
+    align-content: space-around;
+    
+}
+
+
+
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    padding-left: 100px;
+    width: 100px;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: 10px;
+    display: inline-block;
+
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin:;
+    font: 400 13.3333px Arial;
+    padding: 10px 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+input[type="submit" i] {
+    appearance: push-button;
+    user-select: none;
+    font size: 50px;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: -internal-light-dark(buttontext, rgb(100, 170, 170));
+    background-color: lime;
+    box-sizing: border-box;
+    padding: 5px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    width:300px
+}
+
+
+label {
+    cursor: default;
+}
+
+
+
+
+
+#receipt-display{
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    align-content: flex-start;
+padding-top: 15px;
+width: 1000px;
+
+
+}
