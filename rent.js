@@ -66,8 +66,8 @@ class Receipt {
     if(rent === '' || address === '' || tenantName === '' || ownerName === '' || startMonth === '' || endMonth === '' || ownerPan === '') {
         alert('All feilds are mandatory');
     } 
-    else if(ownerPan.length < 6){
-        alert('PAN should be of 6 characters');
+    else if(ownerPan.length < 12){
+        alert('PAN should be of 12 characters');
     }
     else {
       const receipt = new Receipt(rent, address, tenantName, ownerName, ownerPan, startMonth, endMonth);
